@@ -1,0 +1,160 @@
+div.container {
+    background-color: rgb(255, 255, 234);
+
+}
+
+h1 {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    color: #f4ece2;
+    padding-top: 10px;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.titrePrincipal {
+    font-family: 'Cormorant Garamond', serif;
+    font-weight: bold;
+    letter-spacing: 1px;
+    color: #f3bd7b;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.5);
+}
+
+.selection {
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+    border-radius: 15px;
+    border-style: solid;
+
+}
+
+img.imgP {
+    width: 75% !important;
+    height: 100% !important;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    display: block;
+    border-radius: 15px;
+    object-position: center 90%;
+    transition: transform 0.5s;
+}
+
+img.imgP:hover {
+    cursor: pointer;
+    display: flex;
+    transform: scale(1.1);
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+
+}
+
+img.imgP2 {
+    width: 75% !important;
+    height: 100% !important;
+    aspect-ratio: 16/9;
+    object-fit: cover;
+    display: block;
+    border-radius: 15px;
+    object-position: center 70%;
+    transition: transform 0.5s;
+}
+
+img.imgP2:hover {
+    cursor: pointer;
+    display: flex;
+    transform: scale(1.1);
+    box-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+}
+
+#introduction {
+    font-style: italic;
+    position: sticky;
+    border-left: 2px solid chocolate;
+    cursor: none;
+}
+
+p {
+    font-weight: bold;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+#mydiv1 {
+    color: green;
+    font-weight: bold;
+    font-family: monospace;
+}
+
+#mydiv2 {
+    color: rgb(255, 194, 10);
+    font-weight: bold;
+    font-family: monospace;
+}
+
+h4 {
+    font-style: italic;
+    text-shadow: 5px;
+}
+
+#chebbi {
+    width: 100%;
+    height: 75%;
+    border: 3px solid gold;
+    border-radius: 15px;
+    transition: transform 0.5s;
+
+}
+
+#chebbi:hover {
+    zoom: 200%;
+    cursor: pointer;
+    transform: scale(1.1);
+    justify-content: center;
+}
+
+img.image {
+    width: 100%;
+    height: 75%;
+    border-radius: 10px;
+    transition: transform 0.3s;
+
+}
+
+img.image2 {
+    width: 100%;
+    height: 75%;
+    border-radius: 10px;
+    transition: transform 0.3s;
+}
+
+img.image:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+img.image2:hover {
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+.navbar-brand {
+    font-weight: bold;
+    font-style: italic;
+}
+
+.navbar {
+
+    transition: 0.4s;
+    border-radius: 10px;
+}
+
+.mousemouve {
+    width: 10px;
+    height: 10px;
+    border: 2px solid black;
+    border-radius: 50px;
+    position: absolute;
+    transition: 0.1s;
+}
+
+nav a:hover {
+    cursor: pointer;
+    font-style: italic;
+
+}
